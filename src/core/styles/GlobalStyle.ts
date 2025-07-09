@@ -8,8 +8,8 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    font-family: 'Arial', sans-serif;
-    background-color: ${({ theme }) => theme.colors.background};
+    font-family: ${({ theme }) => theme.font.family};
+    background-color: ${({ theme }) => theme.colors.white};
     color: ${({ theme }) => theme.colors.text};
   }
 `;

@@ -4,6 +4,7 @@ export const defaultTheme = {
       background: '#f2f2f2',
       highlighBackground: '#f7f7f7',
       text: '#333',
+      button: '#000',
       white: '#fff',
     },
     spacing: {
