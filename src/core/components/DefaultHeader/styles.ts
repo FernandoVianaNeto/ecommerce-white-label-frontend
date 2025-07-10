@@ -13,7 +13,6 @@ export const Header = styled.header`
   padding: 23px 0px;
   background-color: ${({ theme }) => theme.colors.white};
   border-bottom: 1px solid #D9D9D9;
-  border-radius: ${({ theme }) => theme.borderRadius};
 `;
 
 export const ButtonContainer = styled.div`
